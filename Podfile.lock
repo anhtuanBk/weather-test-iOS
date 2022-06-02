@@ -1,0 +1,109 @@
+PODS:
+  - AccessIDs (0.0.1)
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - GRMustache (7.3.2):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - NetworkStubber (0.0.1):
+    - Moya/RxSwift
+    - OHHTTPStubs/Swift
+  - Nimble (9.2.1)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OHHTTPStubs/Swift (9.0.0):
+    - OHHTTPStubs/Default
+  - Quick (5.0.1)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTest (5.1.1):
+    - RxSwift (~> 5)
+  - Shock (4.0.1):
+    - GRMustache (~> 7.3.2)
+    - Swifter (~> 1.5.0)
+  - SnapKit (5.0.1)
+  - Swifter (1.5.0)
+
+DEPENDENCIES:
+  - AccessIDs (from `LocalPods/AccessIDs`)
+  - AlamofireImage
+  - Moya/RxSwift
+  - NetworkStubber (from `LocalPods/NetworkStubber`)
+  - Nimble (~> 9.2.1)
+  - Quick (~> 5.0.1)
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - RxTest
+  - Shock (~> 4.0.1)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - GRMustache
+    - JRSwizzle
+    - Moya
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - Shock
+    - SnapKit
+    - Swifter
+
+EXTERNAL SOURCES:
+  AccessIDs:
+    :path: LocalPods/AccessIDs
+  NetworkStubber:
+    :path: LocalPods/NetworkStubber
+
+SPEC CHECKSUMS:
+  AccessIDs: adc3e587779fd9b2131c6f8700cbf6f49083653b
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NetworkStubber: e5fe17b3b376badd89c99a12ab30439e222411c4
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
+  Shock: 10167fcc9fc3faff2fdf2b23aff372faa11ccf93
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Swifter: e71dd674404923d7f03ebb03f3f222d1c570bc8e
+
+PODFILE CHECKSUM: 10c3ac069434f6e0d09081c9e41501ef78da058b
+
+COCOAPODS: 1.11.3
